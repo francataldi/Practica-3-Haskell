@@ -39,8 +39,12 @@ digitoUnidades x    | x >= 0 = x `mod` 10
                     | otherwise = (x * (-1)) `mod` 10
 
 digitoDecenas :: Int -> Int
-digitoDecenas x | x>= 0 = x `mod` 100 - `mod` 10 div 10
-                | otherwise = (x * (-1)) `mod` 100 - `mod` 10 div 10
+digitoDecenas x     | x >= 0 = x `mod` 100 - x `mod` 10 `div` 10
+                    | otherwise = (x * (-1)) `mod` 100 - x `mod` 10 `div` 10
+
+                    
+
+
 
 
 
