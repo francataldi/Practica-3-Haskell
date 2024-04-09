@@ -34,6 +34,20 @@ sumaDistintos x y z |(x /= y) && (x /= z) && (y /= z) = x + y + z
                     |(y == z) && (x /=y) && (x/=z) = x
                     |(x == y) && (x == z) && (y == z) = 0
 
+digitoUnidades :: Int -> Int
+digitoUnidades x    | x >= 0 = x `mod` 10
+                    | otherwise = (x * (-1)) `mod` 10
+
+
+
+
+
+
+                 
+
+
+
+
 
 
 
