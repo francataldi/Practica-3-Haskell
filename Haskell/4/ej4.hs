@@ -36,17 +36,3 @@ crearPar a b = (a,b)
 
 invertir :: (a,b) -> (b,a)
 invertir (a,b) = (b,a)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
