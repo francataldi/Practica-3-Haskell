@@ -44,6 +44,3 @@
                 --asegura {False <==> no existe entero entre a y b, lo cual es equivalente a decir que a ϵ R ^ b ϵ Z }
                 --asegura {True <==> existe entero entre a y b, lo cual es equivalente a decir que a ^ b ϵ Z }
 --}
-
-
-
