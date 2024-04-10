@@ -5,6 +5,3 @@ comparar x y | sumaUltimosDosDigitos y > sumaUltimosDosDigitos x = 1
 
 sumaUltimosDosDigitos :: Int -> Int
 sumaUltimosDosDigitos x = (abs x `mod` 10) + (abs x `div` 10) `mod` 10
-
-
-
